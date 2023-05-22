@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contest2</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <h3>Filter ui card via thier profession</h3>
+    <select name="" id="select">
+        <option value="">Profession</option>
+        <option value="admin">Admin</option>
+        <option value="developer">Developer</option>
+    </select>
+    <div class="container">
+        <div class="user-list" id="list">
+                 <!-- <div class="user">
+                     <div>1</div>
+                     <div>Name :salik</div>
+                     <div>age: 22</div>
+                     <div>profession: admin</div>
+                 </div> -->
+               
+        </div>
+        <button class="filter" onclick="filteruser()">Filter</button>
+    </div>
+
+        <p>Add a new User</p>
+        <div class="lower-div">
+            <div class="lower-sec">
+                <label for="name">Enter Name</label>
+                <input type="text" id="name">
+            </div>
+            <div class="lower-sec">
+                <label for="profesion">Enter Profesion</label>
+                <input type="text" id="profession">
+            </div>
+            <div class="lower-sec">
+                <label for="age">Enter Age</label>
+                <input type="number"id="age">
+            </div>
+        </div>
+        <button class="add-btn" onclick="addNewUser()">Add user</button>
+    <script src="./index.js"></script>
+</body>
+</html>
